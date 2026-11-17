@@ -205,6 +205,8 @@ EXPERIMENT-01-BUILDING-LOGICAL-CIRCUITS/
 6. How many truth-table rows are required for six inputs?
 7. What is logic depth?
 8. Why is functional verification necessary?
+
+   
 1.1. What are universal logic gates?
 NAND and NOR gates are called universal logic gates because any Boolean function can be implemented using only NAND gates or only NOR gates.
 2. State De Morgan's theorems.
