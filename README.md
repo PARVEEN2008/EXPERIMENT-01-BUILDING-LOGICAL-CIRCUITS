@@ -205,3 +205,36 @@ EXPERIMENT-01-BUILDING-LOGICAL-CIRCUITS/
 6. How many truth-table rows are required for six inputs?
 7. What is logic depth?
 8. Why is functional verification necessary?
+1.1. What are universal logic gates?
+NAND and NOR gates are called universal logic gates because any Boolean function can be implemented using only NAND gates or only NOR gates.
+2. State De Morgan's theorems.
+De Morgan's theorems are:
+
+1. The complement of a sum is equal to the product of the complements.
+\[
+(A+B)'=A'\cdot B'
+\]
+
+2. The complement of a product is equal to the sum of the complements.
+\[
+(A\cdot B)'=A'+B'
+\]
+3. What is the difference between SOP and POS?
+- SOP (Sum of Products): An expression formed by ORing multiple AND terms.
+- POS (Product of Sums): An expression formed by ANDing multiple OR terms.
+4. How does XOR differ from XNOR?
+- XOR: Produces output 1 when the inputs are different.
+- XNOR: Produces output 1 when the inputs are the same.
+5. How can Boolean expressions be simplified?
+Boolean expressions can be simplified using Boolean algebra laws, De Morgan's theorems, Karnaugh maps (K-maps), and logic identities.
+6. How many truth-table rows are required for six inputs?
+For six inputs, the number of truth-table rows is:
+\[
+2^6=64
+\]
+
+Therefore, 64 rows are required.
+7. What is logic depth?
+Logic depth is the number of logic gate levels through which a signal passes from input to output in a digital circuit.
+8. Why is functional verification necessary?
+Functional verification is necessary to check whether a digital circuit works correctly according to its design and produces the expected outputs for all possible inputs.
